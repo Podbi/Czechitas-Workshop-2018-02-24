@@ -1,0 +1,14 @@
+[
+    {
+        "id": "marks&spencer",
+        "name" : "Marks & Spencer"
+    },
+    {
+        "id" : "c&a",
+        "name" : "C&A"
+    },
+    {
+        "id" : "esprit",
+        "name" : "Esprit"
+    }
+]
