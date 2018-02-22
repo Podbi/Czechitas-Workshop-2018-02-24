@@ -13,12 +13,6 @@
                 <li>
                     <a href='index.php'>Domů</a>
                 </li>
-                <li>
-                    <a href='shopping_list.php'>Nákupní seznam</a>
-                </li>
-                <li>
-                    <a href='stores_management.php'>Obchody</a>
-                </li>
             </ul>
         </div>
     </div>

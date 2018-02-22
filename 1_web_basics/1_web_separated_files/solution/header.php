@@ -5,7 +5,7 @@
                 <div class="site-heading">
                     <h1>Můj první web</h1>
                     <hr class="small">
-                    <span class="subheading">Mgr. Boris Valo</span>
+                    <span class="subheading">Moje Jméno</span>
                 </div>
             </div>
         </div>
