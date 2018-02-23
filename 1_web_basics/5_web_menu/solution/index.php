@@ -21,8 +21,6 @@ $workExperiences = [
     [ 'company' => 'Dixons', 'years' => 5 ],
 ];
 
-$workExperiences = loadData(WORK_EXPERIENCES_FILE);
-
 ?>
 
 <!DOCTYPE html>
@@ -52,9 +50,7 @@ include_once("header.php");
                 <?php
                 foreach($workExperiences as $workExperience) {
                     $company = $workExperience['company'];
-                    $from = $workExperience['from'];
-                    $to = $workExperience['to'];
-                    $years = countYears($from, $to);
+                    $years = $workExperience['years'];
 
                     // Bonus task
                     if ($years == 1) {
@@ -65,7 +61,7 @@ include_once("header.php");
                         $yearsWord = 'let';
                     }
 
-                    echo "<li>$company: ($from - $to) $years $yearsWord</li>";
+                    echo "<li>$company: ($years $yearsWord)</li>";
                 }
                 ?>
             </ul>
