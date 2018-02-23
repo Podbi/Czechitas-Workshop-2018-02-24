@@ -7,6 +7,7 @@ function getWebTitle()
     return WEB_TITLE;
 }
 
-function getYear() {
+function getYear()
+{
     return date('Y');
 }

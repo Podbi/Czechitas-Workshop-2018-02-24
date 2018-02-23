@@ -59,3 +59,11 @@ function countYears($days)
 {
     return floor($days / 365);
 }
+
+function getApiData($url)
+{
+    $request = curl_init($url);
+    curl_setopt($request, CURLOPT_RETURNTRANSFER, true);
+    $response = curl_exec($request);
+    return json_decode($response);
+}

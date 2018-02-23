@@ -9,7 +9,7 @@ include_once 'functions.php';
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include_once 'head.html' ?>
+<?php include_once 'head.php' ?>
 
 <body>
 

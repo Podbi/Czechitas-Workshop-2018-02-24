@@ -7,7 +7,7 @@ Správa obchodů pro nákupní seznam
  - Na začátku souboru je jediný vyplněný PHP blok, ve kterém nalezneš nastavení pro zobrazování případných chyb.
 3. Budeme pracovat s JSON souborem ``./data/stores.json``, se kterým jsi se seznámila už dříve.
  - Kdybys ho nemohla najít, ve složce s tímto úkolem ho máš připravený.
-4. Z tohoto souboru bude potřeba získat jeho obsah a převést ho z JSON formátu na pole v PHP. To už jsme si vyzoušeli.
+4. Z tohoto souboru bude potřeba získat jeho obsah a převést ho z JSON formátu na pole v PHP. To už jsme si vyzkoušeli.
 5. Dalším krokem bude zpracování formuláře pomocí metody POST.
 6. V rámci zpracování formuláře budeme chtít vzít všechny obchody i s naším novým obchodem a převést je do JSON formátu, a pak uložit.
  - Pro tento účel už máme v souboru ``functions.php`` připravenou funkci ``saveData``.

@@ -3,7 +3,8 @@
 $pages = [
     'index' => 'Domů',
     'shopping_list' => 'Nákupní seznam',
-    'stores_management' => 'Obchody'
+    'stores_management' => 'Obchody',
+    'facebook' => 'Facebook profil',
 ];
 
 ?>

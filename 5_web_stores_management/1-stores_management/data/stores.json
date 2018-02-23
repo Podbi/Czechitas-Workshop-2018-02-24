@@ -1,0 +1,22 @@
+[
+    {
+        "id": "marks&spencer",
+        "name" : "Marks & Spencer"
+    },
+    {
+        "id" : "c&a",
+        "name" : "C&A"
+    },
+    {
+        "id" : "esprit",
+        "name" : "Esprit"
+    },
+    {
+        "id" : "rockpoint",
+        "name" : "Rock Point"
+    },
+    {
+        "id" : "humanic",
+        "name" : "Humanic"
+    }
+]

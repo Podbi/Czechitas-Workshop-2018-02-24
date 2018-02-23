@@ -4,7 +4,7 @@ $pages = [
     'index' => 'Domů',
     'shopping_list' => 'Nákupní seznam',
     'stores_management' => 'Obchody',
-    'facebook' => 'Facebook profil'
+    'facebook' => 'Facebook profil',
 ];
 
 ?>

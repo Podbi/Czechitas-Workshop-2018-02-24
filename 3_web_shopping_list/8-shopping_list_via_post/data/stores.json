@@ -10,5 +10,13 @@
     {
         "id" : "esprit",
         "name" : "Esprit"
+    },
+    {
+        "id" : "rockpoint",
+        "name" : "Rock Point"
+    },
+    {
+        "id" : "humanic",
+        "name" : "Humanic"
     }
 ]
