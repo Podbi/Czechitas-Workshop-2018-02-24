@@ -3,10 +3,9 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading">
-                    <!-- Vypsany obecny nazev webu pomoci funkce -->
-                    <h1><?=getWebTitle()?></h1>
+                    <h1><?php echo getWebTitle(); ?></h1>
                     <hr class="small">
-                    <span class="subheading"><?php echo $owner; ?></span>
+                    <span class="subheading"><?php echo "$owner"; ?></span>
                 </div>
             </div>
         </div>
